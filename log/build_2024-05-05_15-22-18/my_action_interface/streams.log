@@ -1,0 +1,257 @@
+[0.012s] Invoking command in '/home/kong/my_ws/build/my_action_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake /home/kong/my_ws/src/my_action_interface -DCMAKE_INSTALL_PREFIX=/home/kong/my_ws/install/my_action_interface
+[0.097s] -- The C compiler identification is GNU 11.4.0
+[0.172s] -- The CXX compiler identification is GNU 11.4.0
+[0.180s] -- Detecting C compiler ABI info
+[0.257s] -- Detecting C compiler ABI info - done
+[0.262s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.263s] -- Detecting C compile features
+[0.263s] -- Detecting C compile features - done
+[0.265s] -- Detecting CXX compiler ABI info
+[0.343s] -- Detecting CXX compiler ABI info - done
+[0.348s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.349s] -- Detecting CXX compile features
+[0.349s] -- Detecting CXX compile features - done
+[0.355s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.487s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.601s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.613s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.627s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.689s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.021s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.187s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.406s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.410s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.442s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.442s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.442s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.442s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.465s] -- Found PythonExtra: .so  
+[1.531s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.567s] -- Added test 'lint_cmake' to check CMake code style
+[1.568s] -- Added test 'xmllint' to check XML markup files
+[1.571s] -- Configuring done
+[1.591s] -- Generating done
+[1.592s] -- Build files have been written to: /home/kong/my_ws/build/my_action_interface
+[1.597s] Invoked command in '/home/kong/my_ws/build/my_action_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake /home/kong/my_ws/src/my_action_interface -DCMAKE_INSTALL_PREFIX=/home/kong/my_ws/install/my_action_interface
+[1.598s] Invoking command in '/home/kong/my_ws/build/my_action_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kong/my_ws/build/my_action_interface -- -j8 -l8
+[1.640s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.652s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.661s] [  5%] Built target ament_cmake_python_copy_my_action_interface
+[1.855s] running egg_info
+[1.856s] creating my_action_interface.egg-info
+[1.856s] writing my_action_interface.egg-info/PKG-INFO
+[1.856s] writing dependency_links to my_action_interface.egg-info/dependency_links.txt
+[1.856s] writing top-level names to my_action_interface.egg-info/top_level.txt
+[1.856s] writing manifest file 'my_action_interface.egg-info/SOURCES.txt'
+[1.858s] reading manifest file 'my_action_interface.egg-info/SOURCES.txt'
+[1.858s] writing manifest file 'my_action_interface.egg-info/SOURCES.txt'
+[1.883s] [  5%] Built target ament_cmake_python_build_my_action_interface_egg
+[2.154s] [  5%] Built target my_action_interface__cpp
+[2.159s] [  7%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_c.dir/rosidl_generator_c/my_action_interface/action/detail/docking_two__functions.c.o[0m
+[2.162s] [ 10%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_c.dir/rosidl_generator_c/my_action_interface/action/detail/open__functions.c.o[0m
+[2.170s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.172s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.172s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.289s] [ 20%] [32m[1mLinking C shared library libmy_action_interface__rosidl_generator_c.so[0m
+[2.327s] [ 20%] Built target my_action_interface__rosidl_generator_c
+[2.341s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.341s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.344s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.636s] [ 30%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_action_interface/action/open__type_support.cpp.o[0m
+[2.641s] [ 33%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_action_interface/action/docking_two__type_support.cpp.o[0m
+[2.658s] [ 35%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_action_interface/action/detail/dds_fastrtps/docking_two__type_support.cpp.o[0m
+[2.660s] [ 38%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_action_interface/action/detail/dds_fastrtps/open__type_support.cpp.o[0m
+[2.716s] [ 41%] [32m[1mLinking CXX shared library libmy_action_interface__rosidl_typesupport_c.so[0m
+[2.731s] [ 46%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_action_interface/action/open__type_support.cpp.o[0m
+[2.731s] [ 46%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_action_interface/action/docking_two__type_support.cpp.o[0m
+[2.783s] [ 46%] Built target my_action_interface__rosidl_typesupport_c
+[2.847s] [ 48%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_action_interface/action/detail/docking_two__type_support.cpp.o[0m
+[2.848s] [ 51%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_action_interface/action/detail/open__type_support.cpp.o[0m
+[3.132s] [ 53%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_action_interface/action/detail/open__type_support.c.o[0m
+[3.196s] [ 56%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_action_interface/action/detail/open__type_support_c.cpp.o[0m
+[3.219s] [ 58%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_action_interface/action/detail/docking_two__type_support.c.o[0m
+[3.256s] [ 61%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_action_interface/action/detail/docking_two__type_support_c.cpp.o[0m
+[3.278s] [ 64%] [32m[1mLinking CXX shared library libmy_action_interface__rosidl_typesupport_cpp.so[0m
+[3.290s] [ 66%] [32m[1mLinking C shared library libmy_action_interface__rosidl_typesupport_introspection_c.so[0m
+[3.346s] [ 66%] Built target my_action_interface__rosidl_typesupport_introspection_c
+[3.353s] [ 66%] Built target my_action_interface__rosidl_typesupport_cpp
+[3.388s] [ 69%] [32m[1mLinking CXX shared library libmy_action_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.464s] [ 69%] Built target my_action_interface__rosidl_typesupport_fastrtps_cpp
+[3.574s] [ 71%] [32m[1mLinking CXX shared library libmy_action_interface__rosidl_typesupport_introspection_cpp.so[0m
+[3.620s] [ 74%] [32m[1mLinking CXX shared library libmy_action_interface__rosidl_typesupport_fastrtps_c.so[0m
+[3.640s] [ 74%] Built target my_action_interface__rosidl_typesupport_introspection_cpp
+[3.695s] [ 74%] Built target my_action_interface__rosidl_typesupport_fastrtps_c
+[3.718s] [ 74%] Built target my_action_interface
+[3.744s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.604s] [ 76%] Built target my_action_interface__py
+[4.628s] [ 79%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_py.dir/rosidl_generator_py/my_action_interface/action/_docking_two_s.c.o[0m
+[4.628s] [ 82%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_py.dir/rosidl_generator_py/my_action_interface/action/_open_s.c.o[0m
+[4.749s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/my_action_interface/libmy_action_interface__rosidl_generator_py.so[0m
+[4.787s] [ 84%] Built target my_action_interface__rosidl_generator_py
+[4.812s] [ 89%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.812s] [ 89%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.812s] [ 92%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[4.924s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_action_interface/my_action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.925s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_action_interface/my_action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.925s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_action_interface/my_action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.965s] [100%] Built target my_action_interface__rosidl_typesupport_introspection_c__pyext
+[4.965s] [100%] Built target my_action_interface__rosidl_typesupport_fastrtps_c__pyext
+[4.965s] [100%] Built target my_action_interface__rosidl_typesupport_c__pyext
+[4.975s] Invoked command in '/home/kong/my_ws/build/my_action_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kong/my_ws/build/my_action_interface -- -j8 -l8
+[5.163s] Invoking command in '/home/kong/my_ws/build/my_action_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kong/my_ws/build/my_action_interface
+[5.173s] -- Install configuration: ""
+[5.173s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/ament_index/resource_index/rosidl_interfaces/my_action_interface
+[5.173s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface
+[5.173s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg
+[5.173s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg/rosidl_generator_c__visibility_control.h
+[5.173s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[5.173s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[5.173s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__functions.c
+[5.173s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__struct.h
+[5.173s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__struct.h
+[5.174s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__type_support.h
+[5.174s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__functions.c
+[5.174s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__type_support.h
+[5.174s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__functions.h
+[5.174s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__functions.h
+[5.174s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/open.h
+[5.174s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/docking_two.h
+[5.175s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/environment/library_path.sh
+[5.175s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/environment/library_path.dsv
+[5.175s] -- Installing: /home/kong/my_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_generator_c.so
+[5.175s] -- Set runtime path of "/home/kong/my_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_generator_c.so" to ""
+[5.175s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface
+[5.175s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg
+[5.175s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.175s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[5.175s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[5.175s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__rosidl_typesupport_fastrtps_c.h
+[5.175s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__rosidl_typesupport_fastrtps_c.h
+[5.176s] -- Installing: /home/kong/my_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_fastrtps_c.so
+[5.176s] -- Set runtime path of "/home/kong/my_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[5.176s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface
+[5.176s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg
+[5.176s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.176s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[5.176s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[5.176s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__type_support.c
+[5.176s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__type_support.c
+[5.176s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__rosidl_typesupport_introspection_c.h
+[5.176s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__rosidl_typesupport_introspection_c.h
+[5.176s] -- Installing: /home/kong/my_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_introspection_c.so
+[5.177s] -- Set runtime path of "/home/kong/my_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_introspection_c.so" to ""
+[5.177s] -- Installing: /home/kong/my_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_c.so
+[5.177s] -- Set runtime path of "/home/kong/my_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_c.so" to ""
+[5.177s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface
+[5.177s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[5.177s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/docking_two.hpp
+[5.177s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[5.177s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__traits.hpp
+[5.177s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__struct.hpp
+[5.177s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__traits.hpp
+[5.177s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__struct.hpp
+[5.178s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__builder.hpp
+[5.178s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__builder.hpp
+[5.178s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/open.hpp
+[5.178s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface
+[5.178s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg
+[5.178s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.178s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[5.178s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[5.178s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/dds_fastrtps
+[5.178s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__rosidl_typesupport_fastrtps_cpp.hpp
+[5.178s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__rosidl_typesupport_fastrtps_cpp.hpp
+[5.178s] -- Installing: /home/kong/my_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_fastrtps_cpp.so
+[5.178s] -- Set runtime path of "/home/kong/my_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.179s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface
+[5.179s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[5.179s] -- Up-to-date: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[5.179s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__rosidl_typesupport_introspection_cpp.hpp
+[5.179s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/docking_two__type_support.cpp
+[5.179s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__type_support.cpp
+[5.179s] -- Installing: /home/kong/my_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/open__rosidl_typesupport_introspection_cpp.hpp
+[5.179s] -- Installing: /home/kong/my_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_introspection_cpp.so
+[5.179s] -- Set runtime path of "/home/kong/my_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[5.179s] -- Installing: /home/kong/my_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_cpp.so
+[5.179s] -- Set runtime path of "/home/kong/my_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_cpp.so" to ""
+[5.179s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/environment/pythonpath.sh
+[5.180s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/environment/pythonpath.dsv
+[5.180s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface-0.0.0-py3.10.egg-info
+[5.180s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.180s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[5.180s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface-0.0.0-py3.10.egg-info/top_level.txt
+[5.180s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.180s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface
+[5.180s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_c.c
+[5.180s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_introspection_c.c
+[5.180s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.180s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/libmy_action_interface__rosidl_generator_py.so
+[5.180s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/__init__.py
+[5.181s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.181s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.181s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.181s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action
+[5.181s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action/_open.py
+[5.181s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action/__init__.py
+[5.181s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action/_docking_two_s.c
+[5.181s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action/_docking_two.py
+[5.181s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action/_open_s.c
+[5.225s] Listing '/home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface'...
+[5.225s] Compiling '/home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/__init__.py'...
+[5.225s] Listing '/home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action'...
+[5.225s] Compiling '/home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action/__init__.py'...
+[5.225s] Compiling '/home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action/_docking_two.py'...
+[5.225s] Compiling '/home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/action/_open.py'...
+[5.229s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.229s] -- Set runtime path of "/home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.229s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.229s] -- Set runtime path of "/home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.229s] -- Installing: /home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.229s] -- Set runtime path of "/home/kong/my_ws/install/my_action_interface/local/lib/python3.10/dist-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.229s] -- Installing: /home/kong/my_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_generator_py.so
+[5.230s] -- Set runtime path of "/home/kong/my_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_generator_py.so" to ""
+[5.230s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/action/Open.idl
+[5.230s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/action/DockingTwo.idl
+[5.230s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/action/Open.action
+[5.230s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/action/DockingTwo.action
+[5.230s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/ament_index/resource_index/package_run_dependencies/my_action_interface
+[5.230s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/ament_index/resource_index/parent_prefix_path/my_action_interface
+[5.230s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/environment/ament_prefix_path.sh
+[5.230s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/environment/ament_prefix_path.dsv
+[5.230s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/environment/path.sh
+[5.230s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/environment/path.dsv
+[5.230s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/local_setup.bash
+[5.231s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/local_setup.sh
+[5.231s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/local_setup.zsh
+[5.231s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/local_setup.dsv
+[5.231s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/package.dsv
+[5.231s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/ament_index/resource_index/packages/my_action_interface
+[5.231s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_cExport.cmake
+[5.231s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_cExport-noconfig.cmake
+[5.231s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[5.231s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.231s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_introspection_cExport.cmake
+[5.231s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.231s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_cExport.cmake
+[5.232s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_cExport-noconfig.cmake
+[5.232s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_cppExport.cmake
+[5.232s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.232s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.232s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_introspection_cppExport.cmake
+[5.232s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.232s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_cppExport.cmake
+[5.232s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[5.232s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_pyExport.cmake
+[5.232s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_pyExport-noconfig.cmake
+[5.232s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/rosidl_cmake-extras.cmake
+[5.232s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.233s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.233s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[5.233s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/ament_cmake_export_targets-extras.cmake
+[5.233s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.233s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.233s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interfaceConfig.cmake
+[5.233s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interfaceConfig-version.cmake
+[5.233s] -- Installing: /home/kong/my_ws/install/my_action_interface/share/my_action_interface/package.xml
+[5.235s] Invoked command in '/home/kong/my_ws/build/my_action_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kong/my_ws/build/my_action_interface

@@ -1,0 +1,51 @@
+[0.302s] Invoking command in '/home/kong/my_ws/build/my_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/install/ros2_aruco:/home/kong/install/my_tf2_package:/home/kong/install/my_docking:/home/kong/install/my_aruco_to_goal_pose_pkg:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake /home/kong/my_ws/src/my_bot_description -DCMAKE_INSTALL_PREFIX=/home/kong/my_ws/install/my_bot_description
+[0.387s] -- The C compiler identification is GNU 11.4.0
+[0.456s] -- The CXX compiler identification is GNU 11.4.0
+[0.465s] -- Detecting C compiler ABI info
+[0.565s] -- Detecting C compiler ABI info - done
+[0.570s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.570s] -- Detecting C compile features
+[0.571s] -- Detecting C compile features - done
+[0.573s] -- Detecting CXX compiler ABI info
+[0.696s] -- Detecting CXX compiler ABI info - done
+[0.706s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.707s] -- Detecting CXX compile features
+[0.707s] -- Detecting CXX compile features - done
+[0.712s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.941s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.087s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.210s] -- Added test 'lint_cmake' to check CMake code style
+[1.214s] -- Added test 'xmllint' to check XML markup files
+[1.218s] -- Configuring done
+[1.222s] -- Generating done
+[1.224s] -- Build files have been written to: /home/kong/my_ws/build/my_bot_description
+[1.232s] Invoked command in '/home/kong/my_ws/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/install/ros2_aruco:/home/kong/install/my_tf2_package:/home/kong/install/my_docking:/home/kong/install/my_aruco_to_goal_pose_pkg:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake /home/kong/my_ws/src/my_bot_description -DCMAKE_INSTALL_PREFIX=/home/kong/my_ws/install/my_bot_description
+[1.232s] Invoking command in '/home/kong/my_ws/build/my_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/install/ros2_aruco:/home/kong/install/my_tf2_package:/home/kong/install/my_docking:/home/kong/install/my_aruco_to_goal_pose_pkg:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kong/my_ws/build/my_bot_description -- -j8 -l8
+[1.297s] Invoked command in '/home/kong/my_ws/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/install/ros2_aruco:/home/kong/install/my_tf2_package:/home/kong/install/my_docking:/home/kong/install/my_aruco_to_goal_pose_pkg:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kong/my_ws/build/my_bot_description -- -j8 -l8
+[1.398s] Invoking command in '/home/kong/my_ws/build/my_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/install/ros2_aruco:/home/kong/install/my_tf2_package:/home/kong/install/my_docking:/home/kong/install/my_aruco_to_goal_pose_pkg:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kong/my_ws/build/my_bot_description
+[1.620s] -- Install configuration: ""
+[1.621s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/urdf
+[1.621s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/urdf/diffbot.materials.xacro
+[1.621s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/urdf/diffbot_description.urdf.xacro
+[1.621s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/urdf/.vscode
+[1.622s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/urdf/.vscode/c_cpp_properties.json
+[1.622s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/urdf/.vscode/settings.json
+[1.622s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/rviz
+[1.622s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/rviz/diffbot.rviz
+[1.622s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/rviz/diffbot_view.rviz
+[1.623s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/ament_index/resource_index/package_run_dependencies/my_bot_description
+[1.623s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/ament_index/resource_index/parent_prefix_path/my_bot_description
+[1.623s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.sh
+[1.623s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.dsv
+[1.623s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/environment/path.sh
+[1.624s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/environment/path.dsv
+[1.624s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/local_setup.bash
+[1.624s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/local_setup.sh
+[1.625s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/local_setup.zsh
+[1.625s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/local_setup.dsv
+[1.625s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/package.dsv
+[1.625s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/ament_index/resource_index/packages/my_bot_description
+[1.625s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig.cmake
+[1.626s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig-version.cmake
+[1.626s] -- Installing: /home/kong/my_ws/install/my_bot_description/share/my_bot_description/package.xml
+[1.636s] Invoked command in '/home/kong/my_ws/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/install/ros2_aruco:/home/kong/install/my_tf2_package:/home/kong/install/my_docking:/home/kong/install/my_aruco_to_goal_pose_pkg:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kong/my_ws/build/my_bot_description

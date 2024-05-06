@@ -1,0 +1,10 @@
+[0.012s] Invoking command in '/home/kong/my_ws/build/my_docking_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kong/my_ws/build/my_docking_cpp -- -j8 -l8
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target docking[0m
+[0.067s] [ 50%] [32m[1mLinking CXX executable docking[0m
+[0.118s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.118s] (.text+0x1b): undefined reference to `main'
+[0.119s] collect2: error: ld returned 1 exit status
+[0.121s] gmake[2]: *** [CMakeFiles/docking.dir/build.make:167: docking] Error 1
+[0.121s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/docking.dir/all] Error 2
+[0.121s] gmake: *** [Makefile:146: all] Error 2
+[0.122s] Invoked command in '/home/kong/my_ws/build/my_docking_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kong/my_ws/build/my_docking_cpp -- -j8 -l8

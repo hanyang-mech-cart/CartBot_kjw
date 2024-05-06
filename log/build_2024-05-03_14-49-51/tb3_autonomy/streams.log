@@ -1,0 +1,29 @@
+[0.033s] Invoking command in '/home/kong/my_ws/build/tb3_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kong/my_ws/build/tb3_autonomy -- -j8 -l8
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target autonomy_node[0m
+[0.145s] [100%] Built target autonomy_node
+[0.163s] Invoked command in '/home/kong/my_ws/build/tb3_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kong/my_ws/build/tb3_autonomy -- -j8 -l8
+[0.317s] Invoking command in '/home/kong/my_ws/build/tb3_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kong/my_ws/build/tb3_autonomy
+[0.333s] -- Install configuration: ""
+[0.333s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/bt_xml
+[0.334s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/bt_xml/tree.xml
+[0.334s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/launch
+[0.334s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/launch/autonomy.launch.py
+[0.334s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/config
+[0.334s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/config/sim_house_locations.yaml
+[0.334s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/lib/tb3_autonomy/autonomy_node
+[0.335s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/ament_index/resource_index/package_run_dependencies/tb3_autonomy
+[0.335s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/ament_index/resource_index/parent_prefix_path/tb3_autonomy
+[0.335s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/environment/ament_prefix_path.sh
+[0.335s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/environment/ament_prefix_path.dsv
+[0.335s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/environment/path.sh
+[0.335s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/environment/path.dsv
+[0.335s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/local_setup.bash
+[0.335s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/local_setup.sh
+[0.335s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/local_setup.zsh
+[0.335s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/local_setup.dsv
+[0.335s] -- Installing: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/package.dsv
+[0.335s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/ament_index/resource_index/packages/tb3_autonomy
+[0.336s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/cmake/tb3_autonomyConfig.cmake
+[0.336s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/cmake/tb3_autonomyConfig-version.cmake
+[0.336s] -- Up-to-date: /home/kong/my_ws/install/tb3_autonomy/share/tb3_autonomy/package.xml
+[0.343s] Invoked command in '/home/kong/my_ws/build/tb3_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kong/my_ws/build/tb3_autonomy

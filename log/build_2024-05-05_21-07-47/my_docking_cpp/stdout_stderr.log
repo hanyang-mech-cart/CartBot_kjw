@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target docking[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/docking.dir/src/docking.cpp.o[0m
+[100%] [32m[1mLinking CXX executable docking[0m
+[100%] Built target docking
+-- Install configuration: ""
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/lib/my_docking_cpp/docking
+-- Set runtime path of "/home/kong/my_ws/install/my_docking_cpp/lib/my_docking_cpp/docking" to ""
+-- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/ament_index/resource_index/package_run_dependencies/my_docking_cpp
+-- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/ament_index/resource_index/parent_prefix_path/my_docking_cpp
+-- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/environment/path.sh
+-- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/environment/path.dsv
+-- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/local_setup.bash
+-- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/local_setup.sh
+-- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/local_setup.zsh
+-- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/local_setup.dsv
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/package.dsv
+-- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/ament_index/resource_index/packages/my_docking_cpp
+-- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/cmake/my_docking_cppConfig.cmake
+-- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/cmake/my_docking_cppConfig-version.cmake
+-- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/package.xml

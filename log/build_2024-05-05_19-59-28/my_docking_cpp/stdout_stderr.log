@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/docking.dir/src/docking.cpp.o[0m
+[100%] [32m[1mLinking CXX executable docking[0m
+[100%] Built target docking
+-- Install configuration: ""
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/lib/my_docking_cpp/docking
+-- Set runtime path of "/home/kong/my_ws/install/my_docking_cpp/lib/my_docking_cpp/docking" to ""
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/share/ament_index/resource_index/package_run_dependencies/my_docking_cpp
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/share/ament_index/resource_index/parent_prefix_path/my_docking_cpp
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/environment/path.sh
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/environment/path.dsv
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/local_setup.bash
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/local_setup.sh
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/local_setup.zsh
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/local_setup.dsv
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/package.dsv
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/share/ament_index/resource_index/packages/my_docking_cpp
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/cmake/my_docking_cppConfig.cmake
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/cmake/my_docking_cppConfig-version.cmake
+-- Installing: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/package.xml

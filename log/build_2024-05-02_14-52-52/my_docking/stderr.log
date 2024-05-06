@@ -1,0 +1,2 @@
+/home/kong/my_ws/install/my_docking/lib/python3.10/site-packages/my_docking/docking.py:129: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif(angle_degrees >= 9.0 and self.prev_angle_degrees is not 0):

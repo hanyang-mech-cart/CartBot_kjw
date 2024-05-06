@@ -1,0 +1,37 @@
+[0.519s] Invoking command in '/home/kong/my_ws/src/my_docking': PYTHONPATH=/home/kong/my_ws/build/my_docking/prefix_override:/home/kong/my_ws/install/my_docking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_docking build --build-base /home/kong/my_ws/build/my_docking/build install --record /home/kong/my_ws/build/my_docking/install.log --single-version-externally-managed install_data
+[0.687s] running egg_info
+[0.687s] creating ../../build/my_docking/my_docking.egg-info
+[0.687s] writing ../../build/my_docking/my_docking.egg-info/PKG-INFO
+[0.687s] writing dependency_links to ../../build/my_docking/my_docking.egg-info/dependency_links.txt
+[0.688s] writing entry points to ../../build/my_docking/my_docking.egg-info/entry_points.txt
+[0.688s] writing requirements to ../../build/my_docking/my_docking.egg-info/requires.txt
+[0.688s] writing top-level names to ../../build/my_docking/my_docking.egg-info/top_level.txt
+[0.688s] writing manifest file '../../build/my_docking/my_docking.egg-info/SOURCES.txt'
+[0.689s] reading manifest file '../../build/my_docking/my_docking.egg-info/SOURCES.txt'
+[0.690s] writing manifest file '../../build/my_docking/my_docking.egg-info/SOURCES.txt'
+[0.690s] running build
+[0.690s] running build_py
+[0.690s] creating /home/kong/my_ws/build/my_docking/build
+[0.690s] creating /home/kong/my_ws/build/my_docking/build/lib
+[0.690s] creating /home/kong/my_ws/build/my_docking/build/lib/my_docking
+[0.690s] copying my_docking/docking.py -> /home/kong/my_ws/build/my_docking/build/lib/my_docking
+[0.690s] copying my_docking/__init__.py -> /home/kong/my_ws/build/my_docking/build/lib/my_docking
+[0.690s] running install
+[0.691s] running install_lib
+[0.691s] creating /home/kong/my_ws/install/my_docking/lib/python3.10/site-packages/my_docking
+[0.691s] copying /home/kong/my_ws/build/my_docking/build/lib/my_docking/docking.py -> /home/kong/my_ws/install/my_docking/lib/python3.10/site-packages/my_docking
+[0.691s] copying /home/kong/my_ws/build/my_docking/build/lib/my_docking/__init__.py -> /home/kong/my_ws/install/my_docking/lib/python3.10/site-packages/my_docking
+[0.692s] byte-compiling /home/kong/my_ws/install/my_docking/lib/python3.10/site-packages/my_docking/docking.py to docking.cpython-310.pyc
+[0.692s] byte-compiling /home/kong/my_ws/install/my_docking/lib/python3.10/site-packages/my_docking/__init__.py to __init__.cpython-310.pyc
+[0.692s] running install_data
+[0.692s] creating /home/kong/my_ws/install/my_docking/share/ament_index
+[0.693s] creating /home/kong/my_ws/install/my_docking/share/ament_index/resource_index
+[0.693s] creating /home/kong/my_ws/install/my_docking/share/ament_index/resource_index/packages
+[0.693s] copying resource/my_docking -> /home/kong/my_ws/install/my_docking/share/ament_index/resource_index/packages
+[0.693s] copying package.xml -> /home/kong/my_ws/install/my_docking/share/my_docking
+[0.693s] running install_egg_info
+[0.694s] Copying ../../build/my_docking/my_docking.egg-info to /home/kong/my_ws/install/my_docking/lib/python3.10/site-packages/my_docking-0.0.0-py3.10.egg-info
+[0.695s] running install_scripts
+[0.710s] Installing docking script to /home/kong/my_ws/install/my_docking/lib/my_docking
+[0.710s] writing list of installed files to '/home/kong/my_ws/build/my_docking/install.log'
+[0.728s] Invoked command in '/home/kong/my_ws/src/my_docking' returned '0': PYTHONPATH=/home/kong/my_ws/build/my_docking/prefix_override:/home/kong/my_ws/install/my_docking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_docking build --build-base /home/kong/my_ws/build/my_docking/build install --record /home/kong/my_ws/build/my_docking/install.log --single-version-externally-managed install_data

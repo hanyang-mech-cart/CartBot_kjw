@@ -1,0 +1,5 @@
+  File "/home/kong/my_ws/install/my_docking/lib/python3.10/site-packages/my_docking/docking.py", line 105
+    if(self.again == Tif angular_z > self.max_angular_z:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

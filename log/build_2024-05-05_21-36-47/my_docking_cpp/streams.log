@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/kong/my_ws/build/my_docking_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kong/my_ws/build/my_docking_cpp -- -j8 -l8
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target docking[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/docking.dir/src/docking.cpp.o[0m
+[5.760s] [100%] [32m[1mLinking CXX executable docking[0m
+[6.060s] [100%] Built target docking
+[6.071s] Invoked command in '/home/kong/my_ws/build/my_docking_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kong/my_ws/build/my_docking_cpp -- -j8 -l8
+[6.147s] Invoking command in '/home/kong/my_ws/build/my_docking_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kong/my_ws/build/my_docking_cpp
+[6.157s] -- Install configuration: ""
+[6.157s] -- Installing: /home/kong/my_ws/install/my_docking_cpp/lib/my_docking_cpp/docking
+[6.160s] -- Set runtime path of "/home/kong/my_ws/install/my_docking_cpp/lib/my_docking_cpp/docking" to ""
+[6.160s] -- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/ament_index/resource_index/package_run_dependencies/my_docking_cpp
+[6.160s] -- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/ament_index/resource_index/parent_prefix_path/my_docking_cpp
+[6.160s] -- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/environment/ament_prefix_path.sh
+[6.160s] -- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/environment/ament_prefix_path.dsv
+[6.160s] -- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/environment/path.sh
+[6.160s] -- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/environment/path.dsv
+[6.160s] -- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/local_setup.bash
+[6.160s] -- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/local_setup.sh
+[6.160s] -- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/local_setup.zsh
+[6.160s] -- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/local_setup.dsv
+[6.161s] -- Installing: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/package.dsv
+[6.161s] -- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/ament_index/resource_index/packages/my_docking_cpp
+[6.161s] -- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/cmake/my_docking_cppConfig.cmake
+[6.161s] -- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/cmake/my_docking_cppConfig-version.cmake
+[6.161s] -- Up-to-date: /home/kong/my_ws/install/my_docking_cpp/share/my_docking_cpp/package.xml
+[6.162s] Invoked command in '/home/kong/my_ws/build/my_docking_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kong/my_ws/install/ros2_aruco:/home/kong/my_ws/install/nav2_simple_commander:/home/kong/my_ws/install/my_tf2_package:/home/kong/my_ws/install/my_docking:/home/kong/my_ws/install/my_aruco_to_goal_pose_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kong/my_ws/build/my_docking_cpp

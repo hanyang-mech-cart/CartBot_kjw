@@ -1,0 +1,5 @@
+  File "/home/kong/my_ws/install/my_docking/lib/python3.10/site-packages/my_docking/docking.py", line 142
+    self.cnt_num = self.cnt_num + 1self.min_angular_z = 0.1
+                                  ^
+SyntaxError: invalid decimal literal
+
